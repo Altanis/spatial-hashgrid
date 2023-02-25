@@ -97,7 +97,7 @@ fn main() {
 	/* Insert entities. */
     grid.insert(0, 0, 10, 10, 0);
     grid.insert(9, 9, 10, 10, 1);
-    grid.insert(1, 1, 100, 100, 1);
+    grid.insert(1, 1, 100, 100, 2);
 
 	/* Query entities. */
     let mut result = grid.query(0, 0, 10, 10);

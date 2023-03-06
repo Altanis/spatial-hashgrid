@@ -87,7 +87,7 @@ class SpatialHashGrid {
     }
 }
 
-fn main() {
+function main() {
     /* Instantiate grid. */
     const grid = new SpatialHashGrid();
 
@@ -101,3 +101,5 @@ fn main() {
 
     console.log(result);
 }
+
+main();
